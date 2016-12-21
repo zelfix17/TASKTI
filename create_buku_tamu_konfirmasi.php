@@ -22,7 +22,7 @@ if (
     echo '<h2 style="text-align: center">Data harus diisi lengkap !</h2>';
 } else {
     mysqli_query($koneksi, "INSERT INTO daftar_hadir VALUES('$no_kartu', '$login_session', '$ucapan')");
-    echo '<h3 style="text-align: center">Buku Tamu Berhasil Dibuat!</h3><hr>    <a href="index_tamu.php">Back to Index Homepage</a>';
+    echo '<h3 style="text-align: center">Buku Tamu Berhasil Dibuat!</h3><hr>    <a href="index_tamu.php">Kembali ke Index Buku Tamu</a>';
 }
 
 echo '</div></div></body></html>'

@@ -25,7 +25,7 @@
                         <br><br>
                         <input type="submit" value="Submit"  style="width:200px;"/><br/>
                         <br><br>
-                        <a href="index_tamu.php">kembali ke index</a>
+                        <a href="index_tamu.php">kembali ke index Buku Tamu</a>
                     </form>
                 </div>
 <!--                <div class="form-box"style="border:1">

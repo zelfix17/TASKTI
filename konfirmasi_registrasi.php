@@ -36,7 +36,7 @@
         <title>Buku Tamu</title>
         <link rel="stylesheet" href="css/table.css"  type="text/css"/>
         <link rel="stylesheet" href="css/style.css"  type="text/css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     </head>
     <body><div class="container">
             <div class="login-container" style="text-align:center;width:400px;">

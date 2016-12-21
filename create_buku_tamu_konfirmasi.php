@@ -6,6 +6,10 @@ $no_kartu = $_POST['no_kartu'];
 $ucapan = $_POST['ucapan'];
 $no_kartu = htmlspecialchars($no_kartu, ENT_QUOTES);
 $ucapan = htmlspecialchars($ucapan, ENT_QUOTES);
+$no_kartu = stripslashes($no_kartu);
+$ucapan = stripslashes($ucapan);
+$no_kartu = mysqli_real_escape_string($koneksi,$no_kartu);
+$ucapan = mysqli_real_escape_string($koneksi,$ucapan);
 echo '<html>
     <head>
         <title>Buku Tamu</title>
